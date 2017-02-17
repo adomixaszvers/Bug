@@ -330,12 +330,12 @@ var BugDispatch = {
 
 };
 
-var BugController = function() {
+export var BugController = function() {
     this.initialize.apply(this, arguments);
 }
 BugController.prototype = BugDispatch;
 
-var SpiderController = function() {
+export var SpiderController = function() {
     var spiderOptions = {
         imageSprite: 'spider-sprite.png',
         bugWidth: 69,
